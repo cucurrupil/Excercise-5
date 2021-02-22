@@ -106,3 +106,20 @@ getch();
 return 0;
 }
 ```
+
+# 5-7
+```c
+#include <stdio.h>
+#include <conio.h>
+//program to convert from degrees to radians
+float d;
+int main(){
+printf("Insert the degrees");
+scanf("%f", &d);
+d = d * 0.0174533;
+printf ("It is equal to %f rad", d);
+getch();
+return 0;
+
+}
+```
